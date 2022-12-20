@@ -14,8 +14,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 public class FileUploadController {
-	static String path = "C:\\Users\\e\\eclipse-workspace\\SpringSpaProject\\src\\main\\resources\\static\\upload\\";
-	
+	//static String path = "C:\\Users\\e\\eclipse-workspace\\SpringSpaProject\\src\\main\\resources\\static\\upload\\";
+	static String path = "D:\\git-2208\\SpringSpaProject\\src\\main\\resources\\static\\upload";
 	@Autowired
 	BoardService service;
 	
