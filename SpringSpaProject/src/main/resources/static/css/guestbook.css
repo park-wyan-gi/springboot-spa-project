@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* guestbook insert -------- */
+.frm_guestbook_insert{
+	margin:20px auto;
+	padding:20px 40px;
+	border:5px solid #aaa;
+	box-shadow: 4px 4px 8px #444;
+}
+
+/* guestbook search --------------- */
+.frm_gb_search{
+	text-align: right;
+	background-color:#ddd;
+	padding:7px;
+}
+.frm_gb_search input{
+	font-size:30px;
+}
+
+#guestbook_list{/*container */
+	display: flex;
+	flex-direction: column;
+}
+.guestbook_items{
+	flex-basis: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.guestbook_btn{
+	flex-basis: 1;
+}
+
+
+.item{
+	background-color:#ccc;
+	padding:20px;
+	width: 490px;
+	margin-bottom:10px;
+	border-radius: 14px;
+	box-shadow: 4px 4px 6px #999;
+}
+
+.item textarea{
+	width: 100%;
+	background-color:#eee;
+}
+
+.btnZone>input{
+	width:38px;
+	height:20px;
+	font-size:9pt;
+	border:0;
+	border-radius: 18px;
+}
+
+.guestbook_btn{
+	text-align: center;
+}
+
+.guestbook_btn input{
+	width:50px;
+	padding:10px;
+}
+
+.guestbook_items .frm_guestbook{
+	position: relative;
+}
+
+.guestbook_items .frm_guestbook .btnZone{
+	position: absolute;
+	right: 0px;
+	top:0px;
+}
+
+.guestbook_items .frm_guestbook .updateZone{
+	visibility: hidden;
+}
+
+/* 암호를 입력하는 model box --------- */
+#modal{
+	background-color: rgba(0,0,0,.3);
+	position: fixed;
+	left:0;
+	top: 0;
+	width:100%;
+	height:100%;
+	z-index: 100;
+	display: none;
+}
+
+#modal>#content{
+	width:300px;
+	margin:250px auto;
+	padding:40px;
+	position: relative;
+	background-color: #fff;
+}
+
+#modal>#content #btnClose{
+	position: absolute;
+	right:2px;
+	top:2px;
+	font-size: 2em;
+	background-color:transparent;
+	border:0;
+}
+
+
+
+
+
